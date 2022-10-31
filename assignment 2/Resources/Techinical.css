@@ -1,0 +1,120 @@
+#main_container {
+    color: #FFF !important;
+}
+
+#main_header {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#main_card_holder, #card_pair_holder {
+    background-color: #FFF;
+    background: -webkit-linear-gradient(#666, #FFF); 
+    background: -o-linear-gradient(#666, #FFF); 
+    background: -moz-linear-gradient(#666, #FFF);
+    background: linear-gradient(#666, #FFF); 
+    width: 100%;
+}
+
+.card {
+    background-color: #FFF;
+    display: inline-block;
+    width: 41.5%;
+    margin: 3%;
+    padding: 1%;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.5);
+}
+
+.card_img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card_text {
+    margin: 2%;
+}
+
+.pulse {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+    background: #e8112a;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.6s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 40px rgba(90, 153, 212, 0);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    }
+}
+.material-icons {
+    font-size: 36px;
+}
+
+.pulse1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+    background: #069b44;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.6s infinite;
+}
+.pulse2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+    background: #170cb8;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.6s infinite;
+}
+.pulse3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+    background: #490425;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.6s infinite;
+}

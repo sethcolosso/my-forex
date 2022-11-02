@@ -19,3 +19,15 @@
     color: #FFF !important;
     text-align: center;
 }
+.carouse2 {
+    background-color: #FFF;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    margin-top: 4%;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
